@@ -46,9 +46,6 @@ if (stats.isDirectory()) {
 } else if (stats.isFile()) {
     root = new FileNode('FILE', rootDir.base, absoluteTargetPath);
 }
-
-console.log(root);
 // fs.writeFileSync(process.cwd() + path.sep + root.name + '.json', JSON.stringify(root));
-
+console.log(root);
 console.log("*******************SUCCESS***************");
-process.exit();
