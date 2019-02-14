@@ -1,8 +1,8 @@
 {
   "bin": {
-    "ncs": "src/index.js"
+    "nccp": "src/index.js"
   },
-  "name": "ncs",
+  "name": "nccp",
   "version": "0.0.1",
   "description": "nodejs practice",
   "main": "src/index.js",
