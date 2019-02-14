@@ -1,2 +1,2 @@
 # ncs
-nie chao de nodejs practice
+nodejs practice

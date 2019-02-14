@@ -1,0 +1,15 @@
+{
+  "bin": {
+    "ncs": "src/index.js"
+  },
+  "name": "ncs",
+  "version": "0.0.1",
+  "description": "nodejs practice",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ls"],
+  "author": "fightant1w1ll",
+  "license": "MIT"
+}
