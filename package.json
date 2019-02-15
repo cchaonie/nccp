@@ -3,7 +3,7 @@
     "nccp": "bin/nccp.js"
   },
   "name": "nccp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "nodejs practice",
   "main": "src/index.js",
   "scripts": {
