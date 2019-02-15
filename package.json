@@ -1,15 +1,27 @@
 {
   "bin": {
-    "nccp": "src/index.js"
+    "nccp": "bin/nccp.js"
   },
   "name": "nccp",
   "version": "0.0.2",
   "description": "nodejs practice",
   "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
+    "build": "npx babel src --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ls"],
+  "keywords": [
+    "ls"
+  ],
   "author": "fightant1w1ll",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1"
+  },
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
 }
